@@ -505,9 +505,10 @@ export const projects: Project[] = [
       TaskType.Documentation,
       TaskType.ITArchitecture,
       TaskType.Rollout,
+      TaskType.Coaching,
     ],
     year: 2009,
-    deliveryTypes: [DeliveryType.Website],
+    deliveryTypes: [DeliveryType.Website, DeliveryType.SPA],
     toolsUsed: [
       "ASP.Net",
       "Visual Basic",
@@ -521,7 +522,7 @@ export const projects: Project[] = [
       "Oracle Database Server",
       "SQL",
     ],
-    description: `Erweiterung der bestehenden Microsoft ASP.Net WebForms-Anwendung um REST Schnittstellen für Nutzung modernerer Webtechnologien wie z.B. AngularJS. Die Q-Board IT-Servicemanagement Suite ist eine Software für das Verwalten von SLAs (Service Level Agreements). Kunden, welche die Lösung verwenden: Postbank, Commerzbank, Daimler und andere.`, // TODO: Fix
+    description: `Erweiterung der bestehenden Microsoft ASP.Net WebForms-Anwendung um REST Schnittstellen für Nutzung modernerer Webtechnologien wie z.B. AngularJS. Coaching von Team-Mitgliedern bzgl. neuer Webtechnologien. Die Q-Board IT-Servicemanagement Suite ist eine Software für das Verwalten von SLAs (Service Level Agreements). Kunden, welche die Lösung verwenden: Postbank, Commerzbank, Daimler und andere.`, // TODO: Fix
   },
   {
     customer: "Bosch.IO Gmbh",
