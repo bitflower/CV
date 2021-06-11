@@ -1,2 +1,4 @@
 node_modules
 dist
+npm-token.txt
+.npmrc

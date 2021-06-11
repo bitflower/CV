@@ -1,6 +1,6 @@
 {
   "name": "@matthiasmax/cv-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The CV of Matthias Max as code.",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,5 +16,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthias Max",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
