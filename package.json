@@ -1,0 +1,20 @@
+{
+  "name": "@matthiasmax/cv-api",
+  "version": "1.0.0",
+  "description": "The CV of Matthias Max as code.",
+  "module": "index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && npm run compile",
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Max",
+  "license": "ISC"
+}
