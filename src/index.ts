@@ -1,13 +1,13 @@
 /**
  * The type of service we have delivered.
  */
-enum ServiceType {
+export enum ServiceType {
   Coaching = "coaching",
   Consulting = "consulting", // Soll für Freelancing/Projekt Mithilfe stehen, als Aufträge, deren Endkunde nicht meiner war
   ClientProject = "clientProject",
 }
 
-enum TaskType {
+export enum TaskType {
   APIDesign = "apidesign",
   AppStore = "appStore", // Manage app store account, releases & content and beta testing & versioning
   CloudHosting = "cloudhosting",
@@ -30,7 +30,7 @@ enum TaskType {
   Writing = "writing",
 }
 
-enum DeliveryType {
+export enum DeliveryType {
   Desktop = "desktop",
   MobileApp = "app",
   PWA = "pwa",
@@ -39,13 +39,13 @@ enum DeliveryType {
   Content = "content",
 }
 
-enum ClientSize {
+export enum ClientSize {
   Corporate = "corporate",
   Midsized = "kmu",
   SmallBusiness = "smallBusiness",
 }
 
-interface Project {
+export interface Project {
   clientSize: ClientSize;
   customer: string;
   industry: string;
