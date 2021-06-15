@@ -581,7 +581,7 @@ export const projects: Project[] = [
   {
     customer: "RTS Steuerberatungsgesellschaft KG",
     title: `Online-Spiel "Tax Hero"für das Recruiting von jungen Mitarbeitern`,
-    industry: "Personal",
+    industry: "Human Resources",
     clientSize: ClientSize.SmallBusiness,
     serviceType: ServiceType.ClientProject,
     taskTypes: [
@@ -848,7 +848,7 @@ export const projects: Project[] = [
     customer: "Open Source",
     title:
       "GS1.js: Javascript GS1 barcode content parser for NodeJS and the browser",
-    industry: "Software",
+    industry: "Open Source",
     serviceType: ServiceType.OSS,
     taskTypes: [TaskType.Coding],
     year: 2016,
@@ -862,7 +862,7 @@ export const projects: Project[] = [
     customer: "Open Source",
     title:
       "Stencil-Lerna: A starter kit for developing Stencil-PWAs in a lerna monorepo",
-    industry: "Software",
+    industry: "Open Source",
     serviceType: ServiceType.OSS,
     taskTypes: [TaskType.Coding],
     year: 2019,
