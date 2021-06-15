@@ -9,7 +9,7 @@ export const milestones = [
   },
   {
     label: "2003 - 2006",
-    content: "Musikverleger & Plattenlabel - Breeze Records",
+    content: "Musikverleger & Plattenlabelinhaber - Breeze Records",
   },
   {
     label: "2002 - 2006",
@@ -20,7 +20,7 @@ export const milestones = [
     content: "Diplom Wirtschaftsinformatik (FH) - TITEL DIPLOMARBEIT",
   },
   {
-    label: "2006 - 2010",
+    label: "2002 - 2010",
     content: "Freelance IT-Consultant - diverse Kunden",
   },
   {
@@ -30,5 +30,9 @@ export const milestones = [
   {
     label: "seit 2014",
     content: "Geschäftsführer – bitflower",
+  },
+  {
+    label: "seit 2019",
+    content: "Gründer – CaseOS Low-Code Plattform",
   },
 ];
