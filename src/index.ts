@@ -14,6 +14,7 @@ export enum TaskType {
   CloudHosting = "cloudhosting",
   Coaching = "coaching",
   Coding = "coding",
+  Composing = "composing",
   CustomerService = "customerservice", // = ServiceDesk
   DatabaseCoding = "database",
   DataModeling = "datamodelling",
@@ -22,6 +23,7 @@ export enum TaskType {
   Documentation = "documentation",
   Frontend = "frontend",
   ITArchitecture = "itarchitecure",
+  MusicProduction = "musicProduction",
   Prototyping = "prototyping",
   Requirements = "requirements",
   Rollout = "rollout", // = Deployment
@@ -30,19 +32,17 @@ export enum TaskType {
   UX = "ux",
   Visualization = "visualization",
   Writing = "writing",
-  MusicProduction = "musicProduction",
-  Composing = "composing",
 }
 
 export enum DeliveryType {
+  Content = "content",
   Desktop = "desktop",
+  Library = "library",
+  MasterRecording = "masterRecording",
   MobileApp = "app",
   PWA = "pwa",
   SPA = "spa",
   Website = "website",
-  Content = "content",
-  Library = "library",
-  MasterRecording = "masterRecording",
 }
 
 export enum ClientSize {
@@ -55,6 +55,7 @@ export interface Project {
   customer: string;
   industry: string;
   deliveryTypes: DeliveryType[];
+  duration: [number, string];
   serviceType: ServiceType;
   taskTypes: TaskType[];
   timestamp: string;
@@ -68,8 +69,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    customer: "Automotive OEM",
-    title: "Entwicklung Prozess-Tool",
+    customer: "Automotive OEM (Sub Contract)",
+    title:
+      "Entwicklung eines Prozesssteuerungstool für die zertifizierung von Fahrzeugen (WLTP/NEFZ)",
     industry: "Automotive",
     clientSize: ClientSize.Corporate,
     serviceType: ServiceType.Consulting,
@@ -84,7 +86,8 @@ export const projects: Project[] = [
       TaskType.Coaching,
     ],
     year: 2018,
-    timestamp: "2018-12-31",
+    timestamp: "2021-05-01",
+    duration: [3, "years"],
     deliveryTypes: [DeliveryType.SPA],
     toolsUsed: [
       "Angular 11",
@@ -100,11 +103,12 @@ export const projects: Project[] = [
       "SQL-Server",
       "Figma",
     ],
+    description: `Frontend-Lead, Requirements-Lead, Mitarbeiterbefähigung in Angular 8+, ...`,
   },
   {
     customer: "bitflower e.K.",
     title: "Entwicklung der Low-Code Plattform CaseOS",
-    industry: "Immobilien",
+    industry: "SaaS",
     clientSize: ClientSize.SmallBusiness,
     serviceType: ServiceType.Consulting,
     taskTypes: [
@@ -125,6 +129,7 @@ export const projects: Project[] = [
     ],
     year: 2021,
     timestamp: "2021-06-01",
+    duration: [2, "years"],
     deliveryTypes: [DeliveryType.SPA, DeliveryType.MobileApp, DeliveryType.PWA],
     toolsUsed: [
       "StencilJS",
@@ -164,6 +169,7 @@ export const projects: Project[] = [
     ],
     year: 2020,
     timestamp: "2020-02-01",
+    duration: [3, "months"],
     deliveryTypes: [DeliveryType.SPA, DeliveryType.MobileApp, DeliveryType.PWA],
     toolsUsed: [
       "StencilJS",
@@ -180,6 +186,7 @@ export const projects: Project[] = [
       "MongoDB",
       "NoSQL",
     ],
+    description: `Zur Steigerung der Kundenbindung und Überführung des bestehenden Papier-Haushandbuches wurde eine iOS- und Android-App entwickelt. Sie bietet neben den aufgearbieteten Inhalten des bestehenden Haushandbuchs die Funktionalität der Alarmierung für wiederkehrende Wartungen. Dazu gehören z.B. die Dachbegrünung, die Hauswasserfilter, die Lüftungsanlage u.a. Der Endkunde kann Inhalte selbständig ändern und neu einpflegen über den No-Code WYSIWYG-Editor.`,
   },
   {
     customer: "Remondis",
@@ -200,6 +207,7 @@ export const projects: Project[] = [
     ],
     year: 2021,
     timestamp: "2021-02-01",
+    duration: [3, "months"],
     deliveryTypes: [DeliveryType.SPA],
     toolsUsed: [
       "StencilJS",
@@ -237,6 +245,7 @@ export const projects: Project[] = [
     ],
     year: 2017,
     timestamp: "2017-07-01",
+    duration: [6, "months"],
     deliveryTypes: [DeliveryType.SPA],
     toolsUsed: [
       ".Net WebApi",
@@ -268,6 +277,7 @@ export const projects: Project[] = [
     ],
     year: 2016,
     timestamp: "2016-07-01",
+    duration: [4, "months"],
     deliveryTypes: [DeliveryType.SPA],
     toolsUsed: [
       ".Net WebApi",
@@ -290,6 +300,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2015,
     timestamp: "2015-10-01",
+    duration: [2, "months"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: [
       "Wordpress",
@@ -312,6 +323,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2015,
     timestamp: "2015-03-01",
+    duration: [2, "days"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: [
       "Wordpress",
@@ -334,6 +346,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2014,
     timestamp: "2014-05-01",
+    duration: [3, "months"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: [
       "Wordpress",
@@ -358,6 +371,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.SEO],
     year: 2015,
     timestamp: "2015-04-01",
+    duration: [4, "months"],
     deliveryTypes: [DeliveryType.Website, DeliveryType.SPA],
     toolsUsed: [
       "Wordpress",
@@ -382,6 +396,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2014,
     timestamp: "2014-04-01",
+    duration: [5, "months"],
     deliveryTypes: [DeliveryType.Website, DeliveryType.SPA],
     toolsUsed: [
       "Wordpress",
@@ -406,6 +421,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2016,
     timestamp: "2016-09-01",
+    duration: [1, "months"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: [
       "Wordpress",
@@ -428,6 +444,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.CloudHosting],
     year: 2015,
     timestamp: "2015-03-01",
+    duration: [1, "months"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["Foundation CSS", "HTML", "CSS", "Javascript"],
     description: `Websiteentwicklung mit hohem Anspruch an Emotion und Bildmaterial.`,
@@ -442,6 +459,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.CloudHosting],
     year: 2017,
     timestamp: "2017-10-01",
+    duration: [3, "weeks"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript"],
     description: `Entwicklung der Onlinepräsenz der Kieferchhirurgie Regensburg mit vielen ästhetischen Animationen und emotionalen Bildern.`,
@@ -456,6 +474,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2014,
     timestamp: "2014-07-01",
+    duration: [1, "weeks"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript"],
     description: `Entwicklung ein Online-Rechners für die Berechnung von Ersparnissen durch den Wechsel zu LED Birnen.`,
@@ -470,6 +489,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.Design, TaskType.SEO, TaskType.UX],
     year: 2001,
     timestamp: "2001-01-01",
+    duration: [2, "years"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript"],
     description: `Entwicklung einer Website zum Austausch von Musik und zum Erstellen von Künstlerprofilen.`,
@@ -489,6 +509,7 @@ export const projects: Project[] = [
     ],
     year: 2001,
     timestamp: "2001-12-31",
+    duration: [6, "years"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript", "Photoshop"],
     description: `Meine erste Website überhaupt war für mein EDM-Musikprojekt Mind One. Es ging darum, mich als Künstler bekannter zu machen und mit Fans in Kontakt zu treten. Ich habe das Design, die Programmierung und das Hosting selber übernommen.`,
@@ -508,6 +529,7 @@ export const projects: Project[] = [
     ],
     year: 2005,
     timestamp: "2005-06-01",
+    duration: [2, "years"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript", "Photoshop", "Wordpress", "CMS"],
     description: `Entwickeln einer CMS-basierten Website für Breathe Music mit Multimedia-Features wie MP3-Player und Slideshow.`,
@@ -527,6 +549,7 @@ export const projects: Project[] = [
     ],
     year: 2007,
     timestamp: "2007-06-01",
+    duration: [2, "years"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript", "Photoshop"],
     description: `Entwicklung und Betrieb einer Website für Superstreem Media mit Multimedia-Features wie MP3-Player und Slideshow.`,
@@ -540,6 +563,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.AppStore],
     year: 2014,
     timestamp: "2014-06-01",
+    duration: [5, "months"],
     deliveryTypes: [DeliveryType.MobileApp],
     toolsUsed: [
       "HTML",
@@ -564,6 +588,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.AppStore],
     year: 2016,
     timestamp: "2016-06-01",
+    duration: [3, "months"],
     deliveryTypes: [DeliveryType.MobileApp],
     toolsUsed: [
       "HTML",
@@ -599,6 +624,7 @@ export const projects: Project[] = [
     ],
     year: 2015,
     timestamp: "2015-05-01",
+    duration: [7, "months"],
     deliveryTypes: [DeliveryType.SPA],
     toolsUsed: [
       "HTML",
@@ -636,6 +662,7 @@ export const projects: Project[] = [
     ],
     year: 2016,
     timestamp: "2016-06-28",
+    duration: [1, "weeks"],
     deliveryTypes: [DeliveryType.MobileApp],
     toolsUsed: [
       "HTML",
@@ -674,6 +701,7 @@ export const projects: Project[] = [
     ],
     year: 1999,
     timestamp: "1999-01-01",
+    duration: [3, "years"],
     deliveryTypes: [DeliveryType.Desktop],
     toolsUsed: [
       "Visual Basic 6.0",
@@ -709,6 +737,7 @@ export const projects: Project[] = [
     ],
     year: 2001,
     timestamp: "2001-06-01",
+    duration: [5, "years"],
     deliveryTypes: [DeliveryType.Desktop],
     toolsUsed: [
       "Visual Basic 6.0",
@@ -743,6 +772,7 @@ export const projects: Project[] = [
     ],
     year: 2006,
     timestamp: "2006-06-01",
+    duration: [5, "years"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: [
       "ASP.Net",
@@ -777,6 +807,7 @@ export const projects: Project[] = [
     ],
     year: 2009,
     timestamp: "2009-06-01",
+    duration: [5, "years"],
     deliveryTypes: [DeliveryType.Website, DeliveryType.SPA],
     toolsUsed: [
       "ASP.Net",
@@ -802,6 +833,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Writing],
     year: 2016,
     timestamp: "2016-05-01",
+    duration: [2, "years"],
     deliveryTypes: [DeliveryType.Content],
     toolsUsed: ["NotePad"],
     description: `Für Bosch.IO habe ich Gast-Beiträge zu den Themen Innovation, Geschäftsmodelle, IoT und weiteren verfasst. Diese wurden im Bosch.IO Blog veröffentlicht.`,
@@ -816,6 +848,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding, TaskType.Design, TaskType.SEO, TaskType.UX],
     year: 2001,
     timestamp: "1999-01-01",
+    duration: [6, "years"],
     deliveryTypes: [DeliveryType.Website],
     toolsUsed: ["HTML", "CSS", "Javascript", "Photoshop"],
     description: `Programmieren einer Website für mein EDM Projekt "Mind One", um die Bekanntheit zu erhöhen und den Kontakt mit Lizenznehmern und Fans herzustellen.`,
@@ -834,6 +867,7 @@ export const projects: Project[] = [
     ],
     year: 1999,
     timestamp: "1999-01-01",
+    duration: [7, "years"],
     deliveryTypes: [DeliveryType.MasterRecording],
     toolsUsed: [
       "Steinberg Cubase",
@@ -853,6 +887,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2016,
     timestamp: "2016-05-02",
+    duration: [1, "weeks"],
     deliveryTypes: [DeliveryType.Library],
     toolsUsed: ["Javascript", "Typescript", "Gulp"],
     description: `GS1JS is a Javascript GS1 barcode content parser for NodeJS and the browser written in Typescript.`,
@@ -867,6 +902,7 @@ export const projects: Project[] = [
     taskTypes: [TaskType.Coding],
     year: 2019,
     timestamp: "2019-06-02",
+    duration: [1, "weeks"],
     deliveryTypes: [DeliveryType.Library],
     toolsUsed: [
       "Javascript",
@@ -895,6 +931,7 @@ export const projects: Project[] = [
     ],
     year: 2016,
     timestamp: "2016-05-01",
+    duration: [2, "months"],
     deliveryTypes: [DeliveryType.SPA],
     toolsUsed: [
       "HTML",
@@ -907,14 +944,30 @@ export const projects: Project[] = [
     description: `Entwicklung eines HTML/CSS/Javascript Design Systems für eine neue POS-Management Software. Über die Software können Mitarbeiter Zeiten buchen, Aufträge bearbeiten und Einsätze planen. Es wurde Kein Javascript-Framework eingesetzt.`,
     links: ["https://one-promoterweb.tmsgmbh.de"],
   },
-  // {
-  //   customer: "BMG Rights Management Berlin",
-  //   industry: "Musik",
-  //   serviceType: ServiceType.Consulting,
-  //   title:
-  //     "Songautor für Künstler wie Christian Stürmer, Beatrice Egli, Glasperlenspiel und Marco Mengoni. Platz 1 in den Charts und Platin- bzw. Goldverkaufszahlen in Dautschland, der Schweiz und Italien.",
-  //   year: 2010,
-  //   timestamp: "2010-01-01",
-  //   deliveryTypes: "",
-  // },
+  {
+    customer: "BMG Rights Management Berlin",
+    clientSize: ClientSize.Midsized,
+    industry: "Musik",
+    serviceType: ServiceType.ClientProject,
+    title:
+      "Songwriter für bekannte Künstler mit Platz 1 Platzierungen und Platin-Verkäufen",
+    year: 2010,
+    timestamp: "2010-01-01",
+    duration: [4, "years"],
+    deliveryTypes: [DeliveryType.Content],
+    description: `Songautor für Künstler wie Christian Stürmer, Beatrice Egli, Glasperlenspiel und Marco Mengoni. Platz 1 in den Charts und Platin- bzw. Goldverkaufszahlen in Dautschland, der Schweiz und Italien.`,
+    taskTypes: [TaskType.Composing, TaskType.MusicProduction],
+    toolsUsed: [
+      "MacBook",
+      "Creativity",
+      "Music Theory",
+      "Research",
+      "Steinberg Cubase",
+      "Apple Logic Audio",
+      "Ableton Live",
+      "Native Instruments",
+      "Musical Instruments",
+      "Music Studio",
+    ],
+  },
 ];
