@@ -12,7 +12,7 @@ export const milestones = [
     content: "Musikverleger & Plattenlabelinhaber - Breeze Records",
   },
   {
-    label: "2002 - 2006",
+    label: "2001 - 2006",
     content: "Studium Wirtschaftsinformatik - Fachhochschule Pforzheim",
   },
   {
