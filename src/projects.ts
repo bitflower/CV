@@ -1011,7 +1011,7 @@ export const projects: Project[] = [
     year: 2010,
     timestamp: "2010-01-01",
     duration: [4, "years"],
-    deliveryTypes: [DeliveryType.Content],
+    deliveryTypes: [DeliveryType.Content, DeliveryType.MasterRecording],
     description: `Songautor für Künstler wie Christian Stürmer, Beatrice Egli, Glasperlenspiel und Marco Mengoni. Platz 1 in den Charts und Platin- bzw. Goldverkaufszahlen in Dautschland, der Schweiz und Italien.`,
     taskTypes: [TaskType.Composing, TaskType.MusicProduction],
     toolsUsed: [
