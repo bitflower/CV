@@ -17,7 +17,8 @@ export const milestones = [
   },
   {
     label: "2006",
-    content: "Diplom Wirtschaftsinformatik (FH) - TITEL DIPLOMARBEIT",
+    content:
+      "Diplom Wirtschaftsinformatik (FH) - Impactanalyse von Systemausfällen auf Service Level Agreements mit 3D Visualisierung in Java",
   },
   {
     label: "2002 - 2010",

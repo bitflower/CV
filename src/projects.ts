@@ -34,7 +34,7 @@ export enum TaskType {
   Writing = "writing",
   DevOps = "devOps",
   UnitTests = "unitTest",
-  QA = "qa", // TODO: Prüfen, wo passend
+  QA = "qa",
 }
 
 export enum DeliveryType {
@@ -114,6 +114,7 @@ export const projects: Project[] = [
       "Refactoring",
       "Jest",
       "SAFe",
+      "Swagger",
     ],
     description: `Breitgefächerte Consulting-Leistungen bei einem Angular/Microservice Entwicklungsprojekt mit ca. 40 Mitarbeitern und Board-of-Management Attention. Als Frontend-Lead habe ich die Requirements mit Stakeholdern, Backend-Leads und dem Frontend Team abgestimmt. Ich habe Junior-Entwickler befähigt im Einsatz von Angular 8+. Ich habe Projekteinsteiger in die Codebase eingeführt. Ich habe das Design System und wesentliche, zentrale Komponenten initial umgesetzt und weiterentwickelt. Meine Rolle sah außerdem vor die Cross-Team Kommunikation zu erhöhen. Hierzu wurden von mir wöchentliche Entwickler/PO/Lead Meetings angesetzt (Dev-Insights) um Themen zu behandeln. Es war meine Verantwortung, die UI/UX-Konsistenz zu wahren sowohl während der Entwicklung als auch in der Konzeptionsphase neuer Features. Es wurden Wireframes und Mockups in Figma realisiert für einen besseren Transport des späteren Look & Feel der Anwendung. Ich habe automatisierte Komponenten Unittests geschrieben. Das Projekt wurde mit SAFe durchgeführt.`,
   },
@@ -164,7 +165,9 @@ export const projects: Project[] = [
       "WebSocket",
       "Socket.IO",
       "Jest",
+      "Swagger",
     ],
+    description: `Nach 12 Jahren maßgeschneiderter Entwicklung von Individualsoftware für Konzerne und Mittelstand, haben wir beschlossen unsere Expertise in ein Produkt zu gießen. Unserer Produkt CaseOS ist ein Digitalbaukasten, mit dem sich Anwendungen, Frontends und Apps dynamisch mit einem WYSIWYG-Editor entwickeln lassen. In Sachen Customizing steht dem Benutzer allerdings nichts im Wege. Im Gegenteil. Das System ist von grundauf auf Whitelabeling und Erweiterung konzipiert. Das eigene CI/CD kann mühelos umgesetzt und individuelle Erweiterung selber entwickelt werden. Sowohl im Frontend als auch im Backend sind keine Grenzen gesetzt. Wieder bei der Technologiewahl noch bei der Plattform. Da das System komplett auf Webtechnologien aufgebaut it, können daraus alle Kanäle bespielt werden: Web, PWA, App, Desktop und theoretisch sogar Embeddedsysteme.`,
   },
   {
     customer: "Auftakt Medien e.K.",
@@ -206,6 +209,7 @@ export const projects: Project[] = [
       "Shoelace Web Components",
       "MongoDB",
       "NoSQL",
+      "Swagger",
     ],
     description: `Zur Steigerung der Kundenbindung und Überführung des bestehenden Papier-Haushandbuches wurde eine iOS- und Android-App entwickelt. Sie bietet neben den aufgearbieteten Inhalten des bestehenden Haushandbuchs die Funktionalität der Alarmierung für wiederkehrende Wartungen. Dazu gehören z.B. die Dachbegrünung, die Hauswasserfilter, die Lüftungsanlage u.a. Der Endkunde kann Inhalte selbständig ändern und neu einpflegen über den No-Code WYSIWYG-Editor. Die App funktioniert Offline and syncronisiert sich, sobald sie online ist, in Echtzeit mit dem Server um neue Inhalte und Downloads (PDF) zu laden. Dateien und Inhalte werden auf dem lokalen Geräte Filesystem gespeichert.`,
   },
@@ -285,6 +289,7 @@ export const projects: Project[] = [
       "Industrie 4.0",
       "OPC UA",
       "Sentry.IO",
+      "Swagger",
     ],
     description: `Auf Basis der Low-Code Plattform CaseOS wurde eine Dashboard zur Visualisierung der täglichen Ballenproduktionszahlen entwickelt. Eine Monats- und Jahressicht lassen den Betrachter zudem ein Controlling bzw. Planung durchführen. Er kann entscheidene KPI (Ballen/Tag, die durchschnittliche Arbeitszeit/h oder die Arbeitstage/Monat) in Echtzeit verändern und sich die Auswirkungen ansehen. Die Daten werden von der Presse in Echtzeit ohne aktives Zutun des Benutzers in den Browser gepusht und von der Siemens S7 per OPC UA abgerufen. Die Nutzer wurden nach Inbetriebnahme geschult.`,
   },
@@ -325,7 +330,7 @@ export const projects: Project[] = [
     customer: "Commerzbank (Sub-Contract)",
     title:
       "Entwicklung eines dynamischen, konfigurierbaren & web-basierten Dashboard-Frameworks.",
-    industry: "Finanzen",
+    industry: "Finanzwesen",
     clientSize: ClientSize.Corporate,
     serviceType: ServiceType.Consulting,
     taskTypes: [
