@@ -22,7 +22,7 @@ export const milestones = [
   },
   {
     label: "2002 - 2010",
-    content: "Freelance IT-Consultant - diverse Kunden",
+    content: "Freelance IT-Consultant - Konzern- und Mittelstandsberatung",
   },
   {
     label: "2010 – 2014",
