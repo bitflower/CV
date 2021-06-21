@@ -73,7 +73,8 @@ export interface Project {
 export const projects: Project[] = [
   {
     customer: "Automotive OEM",
-    title: "Entwicklung eines strategisch wichtigen Prozesssteuerungstools",
+    title:
+      "Entwicklung eines Prozesssteuerungstools für die Fahrzeugzertifizierung",
     industry: "Automotive",
     clientSize: ClientSize.Corporate,
     serviceType: ServiceType.Consulting,
@@ -116,7 +117,7 @@ export const projects: Project[] = [
       "SAFe",
       "Swagger",
     ],
-    description: `Breitgefächerte Consulting-Leistungen bei einem Angular/Microservice Entwicklungsprojekt mit ca. 40 Mitarbeitern und Board-of-Management Attention. Als Frontend-Lead habe ich die Requirements mit Stakeholdern, Backend-Leads und dem Frontend Team abgestimmt. Ich habe Junior-Entwickler befähigt im Einsatz von Angular 8+. Ich habe Projekteinsteiger in die Codebase eingeführt. Ich habe das Design System und wesentliche, zentrale Komponenten initial umgesetzt und weiterentwickelt. Meine Rolle sah außerdem vor die Cross-Team Kommunikation zu erhöhen. Hierzu wurden von mir wöchentliche Entwickler/PO/Lead Meetings angesetzt (Dev-Insights) um Themen zu behandeln. Es war meine Verantwortung, die UI/UX-Konsistenz zu wahren sowohl während der Entwicklung als auch in der Konzeptionsphase neuer Features. Es wurden Wireframes und Mockups in Figma realisiert für einen besseren Transport des späteren Look & Feel der Anwendung. Ich habe automatisierte Komponenten Unittests geschrieben. Das Projekt wurde mit SAFe durchgeführt.`,
+    description: `Breitgefächerte Consulting-Leistungen bei einem Angular/Microservice Entwicklungsprojekt mit ca. 40 Mitarbeitern und Board-of-Management Attention. Als Frontend-Lead habe ich die Requirements mit Stakeholdern, Backend-Leads und dem Frontend Team abgestimmt. Ich habe Junior-Entwickler befähigt im Einsatz von Angular 11+. Ich habe Projekteinsteiger in die Codebase eingeführt. Ich habe das Design System und wesentliche, zentrale Komponenten initial umgesetzt und weiterentwickelt. Meine Rolle sah außerdem vor die Cross-Team Kommunikation zu erhöhen. Hierzu wurden von mir wöchentliche Entwickler/PO/Lead Meetings angesetzt (Dev-Insights) um Themen zu behandeln. Es war meine Verantwortung, die UI/UX-Konsistenz zu wahren sowohl während der Entwicklung als auch in der Konzeptionsphase neuer Features. Es wurden Wireframes und Mockups in Figma realisiert für einen besseren Transport des späteren Look & Feel der Anwendung. Ich habe automatisierte Komponenten Unittests geschrieben. Das Projekt wurde mit SAFe durchgeführt.`,
   },
   {
     customer: "bitflower e.K.",
