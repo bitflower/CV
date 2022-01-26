@@ -198,7 +198,7 @@ export const projects: Project[] = [
       TaskType.QA,
     ],
     year: 2019,
-    timestamp: "2021-06-01",
+    timestamp: "2022-01-01",
     duration: [2, "years"],
     deliveryTypes: [DeliveryType.SPA, DeliveryType.MobileApp, DeliveryType.PWA],
     toolsUsed: [
