@@ -17,7 +17,7 @@
   "scripts": {
     "build": "rimraf ./dist && npm run compile",
     "compile": "tsc -b",
-    "publish": "np"
+    "publish": "np --yolo"
   },
   "author": "Matthias Max",
   "license": "ISC",
