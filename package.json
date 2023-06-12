@@ -11,6 +11,9 @@
     "np": "^8.0.4",
     "rimraf": "^3.0.2"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "build": "rimraf ./dist && npm run compile",
     "compile": "tsc -b",
