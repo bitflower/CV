@@ -1,8 +1,8 @@
 import { milestones as milestonesDe } from './milestones-de';
 import { milestones as milestonesEn } from './milestones-en';
 
-import * as projectsDe from './projects-de';
-import * as projectsEn from './projects-en';
+import { projects as projectsDe } from './projects-de';
+import { projects as projectsEn } from './projects-en';
 
 export * from './types';
 
