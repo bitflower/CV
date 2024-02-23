@@ -64,7 +64,7 @@ export const projects: Project[] = [
   {
     customer: 'E-Mobility Charging Solution Provider',
     title:
-      'Agile Entwicklung Features einer B2B Charging Solutions zwischen E-Mobility und Smart Energy',
+      'Entwicklung von Features einer B2B Charging Solutions (OCPP, RFID, Halb-öffentliches Laden & Abrechnen)',
     industry: 'E-Mobility',
     clientSize: ClientSize.Corporate,
     serviceType: ServiceType.Consulting,
@@ -87,6 +87,8 @@ export const projects: Project[] = [
     duration: [2, 'years'],
     deliveryTypes: [DeliveryType.ProductOwnership],
     toolsUsed: [
+      'OCPP',
+      'OKR',
       'React',
       'NodeJS',
       'Microservices',
@@ -103,13 +105,11 @@ export const projects: Project[] = [
       'LeSS',
       'Swagger',
       'API-First',
-      'OCPP',
       'Mural',
-      'OKR',
       'User Research',
       'User Testing',
     ],
-    description: `Als technischer Product Manager und Team-Lead von 5 Entwicklern und einer UX hatte ich die E2E-Verantwortung für die Entwicklung von RFID-Karten Management, Ladevorgangsauthorisierung, erweitertem Rollen- & Rechtesystem, Roaming- und Kompensierungs-Tarif Management-Service und Dashboard/Reporting-Funktionen. Ausgangspunkt war die Analyse/Migration der Lade-Infrastruktur einer der größten Automotive-Premiummarken von einem CSMS-Backend zum anderen. Ich habe Feature Deltas abgeleitet, Features geplant, eine Raodmap entwickelt und mit den anderen Stakeholdern abgestimmt. Außerdem wurden als Teil der Planung der Implementierung zentrale Architekturanpassungen mit bis zu 7 Teams abgestimmt und durchgesetzt. Regelmäßige, firmenweite Season Plannings wurden durchgeführt und anhand von OKRs (Objectives and Key Results) die Themen geplant. Agiler Prozess mit UX-Prototyping und Rolling Releases, 5 neue Typescript/NestJS Microservices entwickelt. Zusammenstellung des Teams inkl Verfassen der Ausschreibungen, Interviews und Teilnehmerauswahl und Onboarding`,
+    description: `Als technischer Product Manager und Team-Lead von 5 Entwicklern und einer UX-Kapazität hatte ich die E2E-Verantwortung für die Entwicklung von RFID-Karten Management & Ladevorgangsauthorisierung (OCPP), erweitertem Rollen- & Rechtesystem, Roaming- und Kompensierungs-Tarif Management-Service und Dashboard/Reporting-Funktionen. Ausgangspunkt war die Analyse/Migration der Lade-Infrastruktur einer der größten Automotive-Premiummarken von einem OCPP-CSMS-Backend zum anderen. Ich habe Feature Deltas abgeleitet, Features geplant, eine Raodmap entwickelt und mit den anderen Stakeholdern abgestimmt. Außerdem wurden als Teil der Planung der Implementierung zentrale Architekturanpassungen mit bis zu 7 Teams abgestimmt und durchgesetzt. Regelmäßige, firmenweite Season Plannings wurden durchgeführt und anhand von OKRs (Objectives and Key Results) die Themen geplant. Agiler Prozess mit UX-Prototyping und Rolling Releases, 5 neue Typescript/NestJS Microservices entwickelt. Zusammenstellung des Teams inkl Verfassen der Ausschreibungen, Interviews und Teilnehmerauswahl und Onboarding`,
   },
   {
     customer: 'Automotive OEM',

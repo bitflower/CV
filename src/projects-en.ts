@@ -63,7 +63,7 @@ export const projects: Project[] = [
   {
     customer: 'E-Mobility Charging Solution Provider',
     title:
-      'Agile development of features for a B2B Charging Solution between E-Mobility and Smart Energy',
+      'Development of features for a B2B Charging Solution (OCPP, RFID, semi-public Charging & Billing)',
     industry: 'E-Mobility',
     clientSize: ClientSize.Corporate,
     serviceType: ServiceType.Consulting,
@@ -108,7 +108,7 @@ export const projects: Project[] = [
       'User Research',
       'User Testing',
     ],
-    description: `As a technical Product Manager and Team Lead of 5 developers and a UX, I had the E2E responsibility for the development of RFID card management, charging process authorization, extended role & rights system, roaming and compensation tariff management service, and dashboard/reporting functions. The starting point was the analysis/migration of the charging infrastructure of one of the largest premium automotive brands from one CSMS backend to another. I derived feature deltas, planned features, developed a roadmap, and coordinated with other stakeholders. In addition, as part of the planning of the implementation, central architectural adjustments were coordinated and implemented with up to 7 teams. Regular, company-wide season plannings were carried out and topics were planned based on OKRs (Objectives and Key Results). Agile process with UX prototyping and rolling releases, 5 new Typescript/NestJS microservices developed. Compilation of the team including writing the tenders, interviews, participant selection, and onboarding.`,
+    description: `As a technical Product Manager and Team Lead of 5 developers and a UX, I had the E2E responsibility for the development of RFID card management & charging process authorization (OCPP), extended role & rights system, roaming and compensation tariff management service, and dashboard/reporting functions. The starting point was the analysis/migration of the charging infrastructure of one of the largest premium automotive brands from one CSMS backend to another. I derived feature deltas, planned features, developed a roadmap, and coordinated with other stakeholders. In addition, as part of the planning of the implementation, central architectural adjustments were coordinated and implemented with up to 7 teams. Regular, company-wide season plannings were carried out and topics were planned based on OKRs (Objectives and Key Results). Agile process with UX prototyping and rolling releases, 5 new Typescript/NestJS microservices developed. Compilation of the team including writing the tenders, interviews, participant selection, and onboarding.`,
   },
   {
     customer: 'Automotive OEM',
