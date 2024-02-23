@@ -59,7 +59,7 @@ export const projects: Project[] = [
       'Deployment Artefacts',
       'Docker',
     ],
-    description: `Audit der bestehenden Architektur des Energiespeichermanagementsystems. Dokumentation der Architektur und Einrichtung des Änderungsmanagementprozesses mit ADRs (Architecture Decision Records). Ziel war es, die Architektur transparenter zu machen und den Entwicklungsteams die Möglichkeit zu geben, Änderungen effizienter durchzuführen. Es wurde ein halbautomatischer Ansatz verfolgt, indem Structurizr als Werkzeug zur Visualisierung der Architektur und zur Erstellung der Dokumentation eingesetzt wurde. Die Bereitstellungsartefakte wurden gedockt und der Bereitstellungsprozess der Dokumentation wurde automatisiert. Stakeholder-Kommunikation mit dem VP of Cloud Services und dem internen IT-Architekten.`,
+    description: `Audit der bestehenden Architektur des Energiespeichermanagementsystems. Dokumentation der Architektur und Einrichtung des Änderungsmanagementprozesses mit ADRs (Architecture Decision Records). Ziel war es, die Architektur transparenter zu machen und den Entwicklungsteams die Möglichkeit zu geben, Änderungen effizienter durchzuführen. Es wurde ein halbautomatischer Ansatz verfolgt, indem Structurizr als Werkzeug zur Visualisierung der Architektur und zur Erstellung der Dokumentation eingesetzt wurde. Die Bereitstellungsartefakte wurden docker-isiert und der Bereitstellungsprozess der Dokumentation wurde automatisiert. Stakeholder-Kommunikation mit dem VP of Cloud Services und dem internen IT-Architekten.`,
   },
   {
     customer: 'E-Mobility Charging Solution Provider',
