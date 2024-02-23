@@ -48,8 +48,8 @@ export const projects: Project[] = [
       TaskType.Rollout,
       TaskType.QA,
     ],
-    year: 2023,
-    timestamp: '2023-11-01',
+    year: 2024,
+    timestamp: '2024-01-01',
     duration: [6, 'months'],
     deliveryTypes: [DeliveryType.ITArchitecture],
     toolsUsed: [
