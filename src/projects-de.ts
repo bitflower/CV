@@ -8,7 +8,7 @@ import {
 
 export const projects: Project[] = [
   {
-    customer: 'Premium-Hersteller von Energiespeichermanagementsystemen',
+    customer: 'Premium-Hersteller von Energiespeicher-Systemen',
     title:
       'Entwicklung eines OCPP-Management-Frontends für Support-Mitarbeiter',
     industry: 'Smart Energy / E-Mobility',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     description: `Entwicklung eines webbasierten Management-Frontends für Support-Agenten des Energiespeicher-Managementsystems. Ziel war es, den Support-Mitarbeitern ein Tool an die Hand zu geben, mit dem sie die Ladeinfrastruktur des Kunden effizienter verwalten können. Die Herausforderung bestand darin, die Komponenten so vorzubereiten, dass sie später in verschiedenen Szenarien innerhalb des Unternehmens wiederverwendet werden können wie z.B: dem bestehenden Portal. Der generische Ansatz wurde erreicht, indem die Kernfunktionen in separate Pakete aufgeteilt und in die Hauptanwendung importiert wurden. Das Frontend wurde mit React und Typescript entwickelt. Die Entwicklung wurde in einem Team von 4 Entwicklern und 2 QA-Agenten durchgeführt. Die Anforderungen wurden in enger Zusammenarbeit mit den Supportmitarbeitern gesammelt. Der Entwicklungsprozess war agil mit 3-wöchigen Sprints. Die UX wurde in Figma visualisiert. Die API wurde mit OpenAPI entwickelt. Das Backlog wurde in Azure DevOps und später in JIRA verwaltet. Das Projekt umfasste die Stakeholder-Kommunikation mit dem VP of Cloud Services und den internen Produktverantwortlichen.`,
   },
   {
-    customer: 'Premium-Hersteller von Energiespeichermanagementsystemen',
+    customer: 'Premium-Hersteller von Energiespeicher-Systemen',
     title: 'Architekturprüfung, Dokumentation und Change-Management-Prozess',
     industry: 'Smart Energy',
     clientSize: ClientSize.Midsized,
