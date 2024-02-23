@@ -8,6 +8,32 @@ import {
 
 export const projects: Project[] = [
   {
+    customer: 'Premium manufacturer of energy storage management systems',
+    title: 'Architecture Audit, Documentation and Change Management-Process',
+    industry: 'Smart Energy',
+    clientSize: ClientSize.Midsized,
+    serviceType: ServiceType.Consulting,
+    taskTypes: [
+      TaskType.ITArchitecture,
+      TaskType.Documentation,
+      TaskType.Visualization,
+      TaskType.Rollout,
+      TaskType.QA,
+    ],
+    year: 2023,
+    timestamp: '2023-07-01',
+    duration: [6, 'months'],
+    deliveryTypes: [DeliveryType.ITArchitecture],
+    toolsUsed: [
+      'Confluence',
+      'Structurizr',
+      'Jira',
+      'Deployment Artefacts',
+      'Docker',
+    ],
+    description: `Audit of the existing architecture of the energy storage management system. Documentation of the architecture and and setting up of the change management process with ADRs (Architecture Decision Records). The goal was to make the architecture more transparent and to enable the development teams to make changes more efficiently. And semi-automated approach was taken by using Structurizr as a tool to visualize the architecture and to generate documentation. The deployment artefacts were dockerized and the deployment process of the documentation was automated. Stakeholder communication with VP of Cloud Services and internal IT Architect.`,
+  },
+  {
     customer: 'E-Mobility Charging Solution Provider',
     title:
       'Agile development of features for a B2B Charging Solution between E-Mobility and Smart Energy',

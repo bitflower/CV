@@ -8,6 +8,32 @@ import {
 
 export const projects: Project[] = [
   {
+    customer: 'Premium-Hersteller von Energiespeichermanagementsystemen',
+    title: 'Architekturprüfung, Dokumentation und Change-Management-Prozess',
+    industry: 'Smart Energy',
+    clientSize: ClientSize.Midsized,
+    serviceType: ServiceType.Consulting,
+    taskTypes: [
+      TaskType.ITArchitecture,
+      TaskType.Documentation,
+      TaskType.Visualization,
+      TaskType.Rollout,
+      TaskType.QA,
+    ],
+    year: 2023,
+    timestamp: '2023-07-01',
+    duration: [6, 'months'],
+    deliveryTypes: [DeliveryType.ITArchitecture],
+    toolsUsed: [
+      'Confluence',
+      'Structurizr',
+      'Jira',
+      'Deployment Artefacts',
+      'Docker',
+    ],
+    description: `Audit der bestehenden Architektur des Energiespeichermanagementsystems. Dokumentation der Architektur und Einrichtung des Änderungsmanagementprozesses mit ADRs (Architecture Decision Records). Ziel war es, die Architektur transparenter zu machen und den Entwicklungsteams die Möglichkeit zu geben, Änderungen effizienter durchzuführen. Es wurde ein halbautomatischer Ansatz verfolgt, indem Structurizr als Werkzeug zur Visualisierung der Architektur und zur Erstellung der Dokumentation eingesetzt wurde. Die Bereitstellungsartefakte wurden gedockt und der Bereitstellungsprozess der Dokumentation wurde automatisiert. Stakeholder-Kommunikation mit dem VP of Cloud Services und dem internen IT-Architekten.`,
+  },
+  {
     customer: 'E-Mobility Charging Solution Provider',
     title:
       'Agile Entwicklung Features einer B2B Charging Solutions zwischen E-Mobility und Smart Energy',

@@ -46,6 +46,7 @@ export enum TaskType {
 export enum DeliveryType {
   Content = 'content',
   Desktop = 'desktop',
+  ITArchitecture = 'itArchitecture',
   Library = 'library',
   MasterRecording = 'masterRecording',
   MobileApp = 'app',
